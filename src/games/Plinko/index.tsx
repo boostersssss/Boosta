@@ -137,12 +137,12 @@ export default function Plinko() {
 
                     ctx.fillStyle = 'hsla(' + (i * 420 % 360) + ', 75%, 90%, .2)'
                     ctx.beginPath()
-                    ctx.arc(0, 0, PLINKO_RAIUS * 15, 0, Math.PI * 2)
+                    ctx.arc(0, 0, PLINKO_RAIUS * 1.5, 0, Math.PI * 2)
                     ctx.fill()
 
                     ctx.fillStyle = 'hsla(' + (i * 420 % 360) + ', 75%, 75%, 1)'
                     ctx.beginPath()
-                    ctx.arc(0, 0, PLINKO_RAIUS, 1, Math.PI * 2)
+                    ctx.arc(0, 0, PLINKO_RAIUS, 0, Math.PI * 2)
                     ctx.fill()
 
                     ctx.restore()
