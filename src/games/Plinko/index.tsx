@@ -87,7 +87,7 @@ export default function Plinko() {
             ctx.fillStyle = '#0b0b13'
             ctx.fillRect(0, 0, size.width, size.height)
             ctx.save()
-            ctx.translate(size.width / 2 - plinko.width / 2 * s, size.height / 2 - plinko.height / 2 * s)
+            ctx.translate(size.width / 5 - plinko.width / 5 * s, size.height / 5 - plinko.height / 5 * s)
             ctx.scale(s, s)
             if (debug) {
               ctx.beginPath()
