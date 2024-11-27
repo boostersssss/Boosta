@@ -41,7 +41,7 @@ export default function Plinko() {
   const bucketAnimations = React.useRef<Record<number, number>>({})
 
   const bet = degen ? DEGEN_BET : BET
-  const rows = degen ? 12 : 14
+  const rows = degen ? 12 : 16
 
   const multipliers = React.useMemo(() => Array.from(new Set(bet)), [bet])
 
