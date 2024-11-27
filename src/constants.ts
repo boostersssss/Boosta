@@ -69,15 +69,6 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     decimals: 6,
     usdPrice: 0,
   },
-  {
-    mint: new PublicKey('So11111111111111111111111111111111111111112'),
-    name: 'Solana',
-    symbol: 'SOL',
-    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Solana_logo.png/252px-Solana_logo.png',
-    baseWager: 1e6,
-    decimals: 100,
-    usdPrice: 0,
-  },
 ]
 
 /** HTML to display to user that they need to accept in order to continue */
