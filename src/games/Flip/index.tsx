@@ -10,8 +10,8 @@ import SOUND_LOSE from './lose.mp3'
 import SOUND_WIN from './win.mp3'
 
 const SIDES = {
-  heads: [2, 0],
-  tails: [0, 2],
+  heads: [4, 0],
+  tails: [0, 4],
 }
 const WAGER_OPTIONS = [1, 5, 10, 50, 100]
 
